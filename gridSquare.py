@@ -7,6 +7,15 @@ class GridSquares(wx.Frame):
         grid = wx.grid.Grid(parent, -1)
         grid.CreateGrid(self.size + 2, self.size + 2)
         
+<<<<<<< HEAD
+=======
+        '''# Set Sizer
+        Sizer = wx.BoxSizer(wx.HORIZONTAL)
+        Sizer.Add(grid, 0, wx.ALIGN_CENTER|wx.ALL, 5)
+        parent.SetSizerAndFit(Sizer)'''
+
+        
+>>>>>>> 78bdfeb0675f453f2d39e491d34547a0c3339088
         # Set Labels not visible
         grid.SetRowLabelSize(0)
         grid.SetColLabelSize(0)
